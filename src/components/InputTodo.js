@@ -1,8 +1,8 @@
-import React, { Component } from "react"
+import React, { Component } from 'react';
 
 class InputTodo extends Component {
   state = {
-    title: "",
+    title: '',
   }
   onChange = e => {
     this.setState({
@@ -15,7 +15,7 @@ class InputTodo extends Component {
     if(this.state.title.trim()) {
       this.props.addTodoProps(this.state.title);
       this.setState({    
-        title: ""  
+        title: ''  
       });
     } else {
       alert("Please write item")
@@ -38,4 +38,4 @@ class InputTodo extends Component {
     )
   }
 }
-export default InputTodo
+export default InputTodo;

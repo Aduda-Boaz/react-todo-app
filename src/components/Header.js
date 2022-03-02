@@ -1,7 +1,6 @@
-import React from "react"
+import React from 'react';
 
 const Header = () => {
-
   const headerStyle = {
     padding: "20px 0",
     lineHeight: "1.5em",
@@ -14,4 +13,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

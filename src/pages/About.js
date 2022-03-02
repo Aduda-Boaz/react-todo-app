@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link, useRouteMatch, Route } from 'react-router-dom';
+import { Link, BrowserRouter, Route } from 'react-router-dom';
 import SinglePage from './SinglePage';
 
 const About = () => {
-  const { url, path } = useRouteMatch();
+  const { url, path } = BrowserRouter();
   return (
     <div className="about__content">
       <ul className="about__list">

@@ -1,6 +1,43 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- "React-todo" is a simple Singe Page Application which gives the users opportunity to:
+
+  - Add, edit and remove their todos to and from a list.
+
+  ## [Click to See the Todos App](https://aduda-boaz.github.io/react-todo-app/)
+
+## Built With
+
+### - Major languages
+
+- HTML
+- CSS
+- JavaScript
+- React
+
+### - Technologies used
+
+- npm
+
+
+## Getting Started
+
+- To get a local copy up and running follow these simple example steps:
+
+### Prerequisites
+
+- Node
+- npm
+
+### Setup
+
+- Clone the repository with the command:
+
+$ git clone git@github.com:Aduda-Boaz/react-todo-app.git
+
+- To install the dependencies run:
+
+$ npm Install
 
 ## Available Scripts
 
@@ -17,7 +54,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -26,8 +62,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,32 +73,28 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Aduda Boaz**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@Aduda-Boaz](https://github.com/Aduda-Boaz)
+- Twitter: [@BoazAduda](https://twitter.com/BoazAduda)
+- LinkedIn: [boaz-aduda](https://linkedin.com/in/boaz-aduda)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.

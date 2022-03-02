@@ -14,6 +14,6 @@ ReactDOM.render(
     <Router basename={process.env.PUBLIC_URL}>
       <TodoContainer />
     </Router>
-  </React.StrictMode>, 
-  document.getElementById('root')
+  </React.StrictMode>,
+  document.getElementById('root'),
 );

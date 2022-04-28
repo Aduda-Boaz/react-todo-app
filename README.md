@@ -4,7 +4,7 @@
 
   - Add, edit and remove their todos to and from a list.
 
-  ## [Click to See the Todos App](https://aduda-boaz.github.io/react-todo-app/)
+  ## [Click to See the Todos App](https://famous-tartufo-34bd0d.netlify.app/)
 
 ## Built With
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Header from './Header';
 import InputTodo from './InputTodo';
@@ -6,7 +6,7 @@ import TodosList from './TodosList';
 
 const TodoContainer = () => {
   // eslint-disable-next-line no-use-before-define
-  const [todos, setTodos] = useState(getInitialTodos());
+  const [todos, setTodos] = useState([]);
 
   const handleChange = (id) => {
     setTodos((prevState) => prevState.map((todo) => {
@@ -47,18 +47,11 @@ const TodoContainer = () => {
     );
   };
 
-  function getInitialTodos() {
-    // getting stored items
-    const temp = localStorage.getItem('todos');
-    const savedTodos = JSON.parse(temp);
-    return savedTodos || [];
-  }
-
-  // useEffect(() => {
-  //   // storing todos items
-  //   const temp = JSON.stringify(todos);
-  //   localStorage.setItem('todos', temp);
-  // }, [todos]);
+  useEffect(() => {
+    // storing todos items
+    const temp = JSON.stringify(todos);
+    localStorage.setItem('todos', temp);
+  }, [todos]);
 
   return (
     <div className="container">
